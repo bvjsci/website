@@ -13,14 +13,16 @@ alert(ParameterArray);
   <style>
     h2 {
   font-weight:120px
-  background: red;
+ color: red;
   position: relative;
   animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
-  from {top: 0px;}
-  to {top: 200px;}
+  0% { color: red;top: 0px;}
+  20% { color: red;top: 200px;}
+   60% { color: red;top: 0px;}
+  100% { color: red;top: 200px;}
 }
   </style>
   <div>
